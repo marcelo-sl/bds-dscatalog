@@ -65,7 +65,7 @@ public class ProductRepositoryTests {
 	}
 
 	@Test
-	public void findByIdShouldReturnEmptyOptionalProductObjectWhenIdNotExists() {
+	public void findByIdShouldReturnEmptyOptionalProductObjectWhenIdDoesNotExists() {
 
 		Optional<Product> result = repository.findById(nonExistingId);
 
